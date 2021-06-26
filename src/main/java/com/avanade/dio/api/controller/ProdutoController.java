@@ -1,7 +1,5 @@
 package com.avanade.dio.api.controller;
 
-import java.util.List;
-
 import com.avanade.dio.api.model.Produto;
 import com.avanade.dio.api.services.ProdutoService;
 
