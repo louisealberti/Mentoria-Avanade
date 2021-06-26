@@ -21,7 +21,6 @@ public class UserController {
 
 	@GetMapping("/list-all")
 	public Iterable<UserModel> listAll() {
-		System.out.print("HELLO!");
 		return userRepository.findAll();
 	}
 	
